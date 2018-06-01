@@ -36,11 +36,9 @@ div.card{
   position: absolute;
   left: 0;
   top: 0;
-  //padding: 60px 50px;
   transform: rotateX(60deg) scale(0.5) translateY(50px);
   opacity: 0;
-  //box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
-  transition: all 0.8s ease;
+  transition: all 0.5s ease;
 }
 div.card.showing{
   transform: rotateX(0deg) scale(1) translateY(0px);
@@ -48,7 +46,20 @@ div.card.showing{
 }
 
 
+div.control{
+  text-align: center;
+}
 
 button#btn-next-name{
   display: inline-block;
+  background: #707070;
+  padding: 10px 20px;
+  color: #ffffff;
+  border-radius: 5px;
+}
+button#btn-next-name:hover{
+  cursor: pointer;
+}
+button#btn-next-name:active{
+  background: #929292;
 }
