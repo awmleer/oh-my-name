@@ -1,9 +1,15 @@
 <div class="container">
-  <div class="card">
-    <h3>名字</h3>
-    <p>名一二三&nbsp;&nbsp;字一二三</p>
+  <div class="cards">
+    <div class="card" [class.showing]="test">
+      <h3>名字</h3>
+      <p>名一二三&nbsp;&nbsp;字一二三</p>
+    </div>
+    <div class="card" [class.showing]="!test">
+      <h3>名字</h3>
+      <p>名一二三&nbsp;&nbsp;字一二三</p>
+    </div>
   </div>
-  <button id="btn-next-name">
+  <button id="btn-next-name" (click)="nextName()">
     下一个名字
   </button>
 </div>

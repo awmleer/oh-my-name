@@ -4,11 +4,17 @@ div.container{
   margin: auto;
 }
 
-div.card{
+div.cards{
   display: block;
   width: 300px;
   max-width: 100%;
   margin: auto;
+  height: 300px;
+  position: relative;
+}
+
+div.card{
+  width: 100%;
   padding: 30px;
   background: #756de7;
   //box-shadow: 0 0 10px 2px #b8abed;
@@ -25,6 +31,23 @@ div.card{
     margin: 8px 0;
   }
 }
+
+div.card{
+  position: absolute;
+  left: 0;
+  top: 0;
+  //padding: 60px 50px;
+  transform: rotateX(60deg) scale(0.5) translateY(50px);
+  opacity: 0;
+  //box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+  transition: all 0.8s ease;
+}
+div.card.showing{
+  transform: rotateX(0deg) scale(1) translateY(0px);
+  opacity: 1;
+}
+
+
 
 button#btn-next-name{
   display: inline-block;

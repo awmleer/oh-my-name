@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  test = false;
+
+  nextName(){
+    this.test = !this.test;
+  }
+
 }
