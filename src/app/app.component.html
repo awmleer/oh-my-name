@@ -1,11 +1,11 @@
 <div class="container">
   <div class="cards">
-    <div class="card" [class.showing]="test">
-      <h3>名字</h3>
+    <div class="card previous" [class.animating]="animating">
+      <h3>{{namePrevious}}</h3>
       <p>名一二三&nbsp;&nbsp;字一二三</p>
     </div>
-    <div class="card" [class.showing]="!test">
-      <h3>名字</h3>
+    <div class="card current" [class.animating]="animating">
+      <h3>{{nameCurrent}}</h3>
       <p>名一二三&nbsp;&nbsp;字一二三</p>
     </div>
   </div>

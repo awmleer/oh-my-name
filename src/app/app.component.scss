@@ -36,13 +36,25 @@ div.card{
   position: absolute;
   left: 0;
   top: 0;
+}
+div.card.previous{
   transform: rotateX(60deg) scale(0.5) translateY(50px);
   opacity: 0;
-  transition: all 0.5s ease;
 }
-div.card.showing{
+div.card.current{
   transform: rotateX(0deg) scale(1) translateY(0px);
   opacity: 1;
+}
+div.card.animating{
+  transition: all 0.5s ease;
+}
+div.card.previous.animating{
+  transform: rotateX(0deg) scale(1) translateY(0px);
+  opacity: 1;
+}
+div.card.current.animating{
+  transform: rotateX(60deg) scale(0.5) translateY(50px);
+  opacity: 0;
 }
 
 
