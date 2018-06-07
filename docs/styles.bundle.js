@@ -3,7 +3,7 @@ webpackJsonp(["styles"],{
 /***/ "./node_modules/raw-loader/index.js!./node_modules/postcss-loader/lib/index.js??embedded!./node_modules/sass-loader/lib/loader.js??ref--8-3!./src/styles.scss":
 /***/ (function(module, exports) {
 
-module.exports = "/* You can add global styles to this file, and also import other style files */\nbody {\n  font-family: \"Helvetica Neue\", Helvetica, \"Nimbus Sans L\", Arial, \"Liberation Sans\", \"Hiragi    no Sans GB\", \"Source Han Sans CN Normal\", \"Microsoft YaHei\", \"Wenquanyi Micro Hei\", \"WenQuanYi Z    en Hei\", \"ST Heiti\", SimHei, \"WenQuanYi Zen Hei Sharp\", sans-serif; }\ntextarea, input, button {\n  outline: none; }\n:focus {\n  outline: none; }\n"
+module.exports = "/* You can add global styles to this file, and also import other style files */\nbody {\n  font-family: \"Helvetica Neue\", Helvetica, \"Nimbus Sans L\", Arial, \"Liberation Sans\", \"Hiragi    no Sans GB\", \"Source Han Sans CN Normal\", \"Microsoft YaHei\", \"Wenquanyi Micro Hei\", \"WenQuanYi Z    en Hei\", \"ST Heiti\", SimHei, \"WenQuanYi Zen Hei Sharp\", sans-serif;\n  padding: 0;\n  margin: 0; }\ntextarea, input, button {\n  outline: none; }\n:focus {\n  outline: none; }\n"
 
 /***/ }),
 

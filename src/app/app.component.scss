@@ -1,13 +1,14 @@
 div.container{
   max-width: 1000px;
-  padding: 50px 200px;
+  width: 80%;
+  padding: 50px 0;
   margin: auto;
 }
 
 div.cards{
   display: block;
-  width: 300px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 300px;
   margin: auto;
   height: 300px;
   position: relative;
@@ -15,6 +16,7 @@ div.cards{
 
 div.card{
   width: 100%;
+  box-sizing: border-box;
   padding: 30px;
   background: #756de7;
   //box-shadow: 0 0 10px 2px #b8abed;
